@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: teal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-inline: 5%; */
+}
+
+header > h1, header > nav {
+    margin-block: auto;
+}
+
+header > nav {
+    display: flex;
+    column-gap: 10px;
+}
+
+header > nav > a {
+    text-decoration-line: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+header > nav > a:hover {
+    background-color: orangered;
+}
+
+table {
+    background-color: crimson;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5% auto;
+}
+
+table td > input {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
+
+table td > button {
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
+
+table td > button:hover {
+    background-color: dodgerblue;
+}
+
+table td > button:active {
+    background-color: lime;
+    transform: translateY(2px);
+}
